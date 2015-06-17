@@ -2,7 +2,7 @@
 from setuptools import setup, find_packages
 import os, re
 
-PKG='oauth2'
+PKG='pbs_oauth2'
 VERSIONFILE = os.path.join('oauth2', '_version.py')
 verstr = "unknown"
 try:
@@ -26,7 +26,7 @@ else:
     verstr = '.'.join([mverstr, averstr])
 
 setup(name=PKG,
-      version=verstr,
+      version='1.6',
       description="library for OAuth version 1.0",
       author="Joe Stump",
       author_email="joe@simplegeo.com",
